@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(37, 37, 37);
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+section h1 {
+  color: rgba(255, 255, 255, 0.322);
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+section p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.322);
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#ip-input-wrapper {
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+#ip-input {
+  padding: 20px;
+  max-width: 180px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 20px 0 0 20px;
+}
+
+.ip-valid {
+  color: white;
+  background-color: rgb(120, 196, 8);
+  font-weight: 600;
+}
+
+#ip-btn {
+  padding: 20px;
+  border-radius: 0 20px 20px 0;
+}
+
+#history-wrapper p {
+  color: black;
+  text-align: left;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#history-wrapper .reply {
+  color: white;
+  background-color: rgb(27, 118, 255);
+  text-align: right;
+}
