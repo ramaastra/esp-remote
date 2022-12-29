@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-  <title>Voice Recognition Test</title>
+  <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+  <title>ESP8266 Remote</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
     <p>Available in Chrome Only</p>
     <div class="container">
       <div id="ip-input-wrapper">
-        <input type="text" placeholder="Target's IP Address" id="ip-input" />
+        <input type="text" placeholder="Target's IP Address" id="ip-input" maxlength="15" />
         <button id="ip-btn">
           Enter
         </button>
@@ -24,6 +24,6 @@
     </div>
   </section>
 
-  <script src="./index.js"></script>
+  <script src="https://ramaastra.github.io/esp-remote/index.js"></script>
 </body>
 </html>
